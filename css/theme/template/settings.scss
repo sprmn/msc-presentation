@@ -5,8 +5,9 @@
 $backgroundColor: #2b2b2b;
 
 // Primary/body text
-$mainFont: 'Lato', sans-serif;
-$mainFontSize: 40px;
+$mainFont: 'Lato',
+sans-serif;
+$mainFontSize: 27px;
 $mainColor: #eee;
 
 // Vertical spacing between blocks of text
@@ -14,7 +15,9 @@ $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'League Gothic', Impact, sans-serif;
+$headingFont: 'League Gothic',
+Impact,
+sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
@@ -32,7 +35,7 @@ $codeFont: monospace;
 
 // Links and actions
 $linkColor: #13DAEC;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColorHover: lighten($linkColor, 20%);
 
 // Text selection
 $selectionBackgroundColor: #FF5E99;

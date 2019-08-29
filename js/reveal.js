@@ -271,7 +271,7 @@
 			viewDistance: 3,
 
 			// The display mode that will be used to show slides
-			display: 'block',
+			display: 'flex',
 
 			// Hide cursor if inactive
 			hideInactiveCursor: true,
@@ -726,6 +726,9 @@
 		// Progress bar
 		dom.progress = createSingletonNode( dom.wrapper, 'div', 'progress', '<span></span>' );
 		dom.progressbar = dom.progress.querySelector( 'span' );
+
+                // Footer
+		dom.footer = createSingletonNode(dom.wrapper, "footer", "footer", new Date().toLocaleDateString('en-UK', {year: 'numeric', day: 'numeric', month: 'long' }));
 
 		// Arrow controls
 		dom.controls = createSingletonNode( dom.wrapper, 'aside', 'controls',

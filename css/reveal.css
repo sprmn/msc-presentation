@@ -12,7 +12,7 @@ html {
   width: 100%;
   height: 100%;
   height: 100vh;
-  height: calc( var(--vh, 1vh) * 100);
+  height: calc(var(--vh, 1vh) * 100);
   overflow: hidden; }
 
 body {
@@ -178,7 +178,11 @@ body {
  * CONTROLS
  *********************************************/
 @-webkit-keyframes bounce-right {
-  0%, 10%, 25%, 40%, 50% {
+  0%,
+  10%,
+  25%,
+  40%,
+  50% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
   20% {
@@ -188,7 +192,11 @@ body {
     -webkit-transform: translateX(-5px);
             transform: translateX(-5px); } }
 @keyframes bounce-right {
-  0%, 10%, 25%, 40%, 50% {
+  0%,
+  10%,
+  25%,
+  40%,
+  50% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
   20% {
@@ -199,7 +207,11 @@ body {
             transform: translateX(-5px); } }
 
 @-webkit-keyframes bounce-down {
-  0%, 10%, 25%, 40%, 50% {
+  0%,
+  10%,
+  25%,
+  40%,
+  50% {
     -webkit-transform: translateY(0);
             transform: translateY(0); }
   20% {
@@ -210,7 +222,11 @@ body {
             transform: translateY(-5px); } }
 
 @keyframes bounce-down {
-  0%, 10%, 25%, 40%, 50% {
+  0%,
+  10%,
+  25%,
+  40%,
+  50% {
     -webkit-transform: translateY(0);
             transform: translateY(0); }
   20% {
@@ -1596,3 +1612,14 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.footer {
+  position: absolute;
+  top: auto;
+  bottom: 12px;
+  left: 12px;
+  right: auto;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: 300; }
